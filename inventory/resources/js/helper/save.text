@@ -1,0 +1,21 @@
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('email');
+            $table->string('address');
+            $table->string('photo')->nullable();
+            $table->string('salary');
+            $table->string('joining_date');
+            $table->string('phone');
+            $table->timestamps();
+
+
+        protected $fillable = [
+        'first_name',
+        'last_name',
+        'email',
+        'photo',
+        'salary',
+        'joining_date',
+        'phone',
+    ];
+}
